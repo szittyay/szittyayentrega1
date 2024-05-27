@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "poetsen";
+    src: url(../fonts/poetsen.ttf);
+}
+@font-face {
+    font-family: "light";
+    src: url(../fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Light.ttf);
+}
+@font-face {
+    font-family: "medium";
+    src: url(../fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Medium.ttf);
+}
+
+
+* {
+    margin: 0.4rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "medium";
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: "poetsen";
+}
+
+section {
+font-size: 1rem;
+font-family: "light";
+}
+
+h3 {
+    font-family: "medium";
+}
+
+h4 {
+    font-family: "medium";
+}
+
+footer {
+    color: white;
+    font-family: "medium";
+    background-color: rgb(56, 49, 49);
+    width: 700px;
+    height: 60px;
+}
+
+label {
+    font-size: 1rem;
+    font-family: "light";
+}
+
+nav {
+    font-family: "medium";
+}
+
+div {
+    background-color: bisque;
+    border: 2px solid gray;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+}
+
